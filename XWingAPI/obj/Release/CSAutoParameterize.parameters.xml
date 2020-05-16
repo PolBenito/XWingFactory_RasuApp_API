@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SecureCore-Web.config Connection String" description="SecureCore Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Server=thegungansalesians.database.windows.net; Database=SecureCoreDB; User Id=gungan; Password=12345aA12345aA" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\admin\\source\\repos\\XWingAPI\\XWingAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SecureCore']/@connectionString" />
+  </parameter>
+  <parameter name="XWingsFactoryEntities-Web.config Connection String" description="XWingsFactoryEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/DB.csdl|res://*/DB.ssdl|res://*/DB.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=thegungansalesians.database.windows.net;initial catalog=XWingsFactory;persist security info=True;user id=gungan;password=12345aA12345aA;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\admin\\source\\repos\\XWingAPI\\XWingAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='XWingsFactoryEntities']/@connectionString" />
+  </parameter>
+</parameters>
